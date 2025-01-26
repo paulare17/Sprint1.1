@@ -149,3 +149,22 @@ footer {
 
 }
 
+
+/* per a tablets*/ 
+
+@media (max-width: 768px) {
+
+    main {
+        display: flex;
+    }
+    .contenedor-nav {
+        margin-right: 0;
+    }
+    .articles {
+        margin-right: 0;
+    }
+    .publi {
+        margin-top: 1rem;
+    }
+}
+
