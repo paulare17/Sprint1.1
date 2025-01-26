@@ -153,7 +153,7 @@ footer {
 /* per a tablets*/ 
 
 @media (max-width: 768px) {
-
+   
     main {
         display: flex;
     }
@@ -168,3 +168,23 @@ footer {
     }
 }
 
+/* per a mòbils*/
+
+@media (max-width: 568px) {
+   
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .articles {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+
+    .art1, .art2, .art3, .art4 {
+        flex-basis: 100%; 
+        margin: 1rem 1rem; 
+    }
+}
